@@ -1,7 +1,19 @@
 import styled from 'styled-components';
 
-export const ButtonContainer = styled.button`
+export const NavWrapper = styled.nav `
+  background: var(--darkCyan);
+  .nav-link {
+    color: var(--mainWhite);
+    font-size: 1.3rem;
+    text-transform: uppercase !important;
+  }
 
+`;
+
+
+
+
+export const ButtonContainer = styled.button`
   text-transform: capitalize;
   font-size: 1.4rem;
   backgroun: transparent;
@@ -20,5 +32,5 @@ export const ButtonContainer = styled.button`
   &:focus {
     outline: none;
   }
-
-`;
+  
+  `;
